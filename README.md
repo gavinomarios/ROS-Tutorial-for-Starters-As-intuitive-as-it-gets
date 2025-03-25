@@ -12,11 +12,15 @@ Set it up
 3. [🗂 ROS Filesystem & Package Management](#ros-filesystem--package-management)
 
 What you actually need ⬇️
+
 4. [🧠 Core ROS Concepts: Nodes, Topics, and Communication](#core-ros-concepts-nodes-topics-and-communication)
 
 Bluh Bluh Bluh if you need them they are here. 
+
 6. [🔄 ROS Services, Parameters, and Data Management](#ros-services-parameters-and-data-management)
+   
 7. [🔧 ROS Tools for Debugging and Monitoring](#ros-tools-for-debugging-and-monitoring)
+   
 8. [🎥 Data Recording, Playback, and Analysis](#data-recording-playback-and-analysis)
 
 Ok nerd...
