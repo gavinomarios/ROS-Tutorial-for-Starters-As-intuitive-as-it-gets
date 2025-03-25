@@ -7,13 +7,13 @@ Welcome to the **ROS (Robot Operating System) Tutorial for Starters** — design
 ## 📖 Table of Contents
 
 1. [Introduction](#introduction)
-2. [Environment Setup](#environment-setup)
-3. [Filesystem & Package Management](#filesystem--package-management)
-4. [Nodes & Topics Communication](#nodes--topics-communication)
-5. [Services, Parameters, and Custom Messages](#services-parameters-and-custom-messages)
-6. [Debugging & Monitoring Tools](#debugging--monitoring-tools)
-7. [Data Recording & Playback](#data-recording--playback)
-8. [Multi-Machine ROS Networking](#multi-machine-ros-networking)
+2. [🌐 ROS Environment Setup](#ros-environment-setup)
+3. [🗂 ROS Filesystem & Package Management](#ros-filesystem--package-management)
+4. [🧠 Core ROS Concepts: Nodes, Topics, and Communication](#core-ros-concepts-nodes-topics-and-communication)
+5. [🔄 ROS Services, Parameters, and Data Management](#ros-services-parameters-and-data-management)
+6. [🔧 ROS Tools for Debugging and Monitoring](#ros-tools-for-debugging-and-monitoring)
+7. [🎥 Data Recording, Playback, and Analysis](#data-recording-playback-and-analysis)
+8. [🌍 Advanced Concepts: Multi-Machine ROS](#advanced-concepts-multi-machine-ros)
 9. [Visual Roadmap](#visual-roadmap)
 10. [Contributing](#contributing)
 11. [License](#license)
@@ -27,54 +27,99 @@ This tutorial aims to break down the learning process into digestible sections f
 
 ---
 
-## ⚙️ Environment Setup
-- Learn how to install ROS on your system.
-- Configure your workspace and environment variables.
+## 🌐 1. ROS Environment Setup
+Setting up your development environment properly is the foundation for working with ROS.
 
-✅ [Install & Configure ROS](https://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
+### 1.1 Installing and Configuring ROS
+📌 **Tutorial:** [Installing and Configuring Your ROS Environment](https://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
 
----
-
-## 🗂 Filesystem & Package Management
-- Understand ROS package structures.
-- Learn how to navigate the ROS filesystem and build packages.
-
-✅ `roscd`, `rosls`, `rospack`, CMake, Catkin basics.
+✅ **Description:** Learn how to install ROS on your machine, set up environment variables, and configure your workspace. This ensures your system is ready to develop and run ROS packages.
 
 ---
 
-## 📡 Nodes & Topics Communication
-- Learn about nodes as executables.
-- Communicate between nodes using topics (Publisher/Subscriber).
+## 🗂 2. ROS Filesystem & Package Management
+Understand how ROS organizes files and packages—crucial for project structure and navigation.
 
-✅ Includes Python and C++ examples.
+### 2.1 Navigating the ROS Filesystem
+📌 **Tutorial:** [Navigating the ROS Filesystem](https://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem)
 
----
+✅ **Description:** Explore ROS's file and package structure. Learn commands like `roscd`, `rosls`, and `rospack` to navigate efficiently.
 
-## 🛠 Services, Parameters, and Custom Messages
-- Use services for synchronous communication.
-- Manage runtime configurations via the parameter server.
-- Create custom messages and services.
+### 2.2 Creating a ROS Package
+📌 **Tutorial:** [Creating a ROS Package](https://wiki.ros.org/ROS/Tutorials/CreatingPackage)
 
-✅ Examples included.
+✅ **Description:** Understand the anatomy of a ROS package. Create your own package with dependencies, setting the stage for scalable projects.
 
----
+### 2.3 Building a ROS Package
+📌 **Tutorial:** [Building a ROS Package](https://wiki.ros.org/ROS/Tutorials/BuildingPackages)
 
-## 🔍 Debugging & Monitoring Tools
-- Use `rqt_console` and `roslaunch` to monitor and debug your ROS system.
+✅ **Description:** Learn the build system (CMake/Catkin), compile your package, and resolve dependencies for smooth development.
 
 ---
 
-## 🎥 Data Recording & Playback
-- Record topic data with `rosbag`.
-- Play it back for testing or analysis.
+## 🧠 3. Core ROS Concepts: Nodes, Topics, and Communication
+Master the core communication models in ROS for inter-node messaging.
+
+### 3.1 Understanding ROS Nodes
+📌 **Tutorial:** [Understanding ROS Nodes](https://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
+
+✅ **Description:** Grasp the role of nodes as individual executables that handle tasks and communicate via topics and services.
+
+### 3.2 Understanding ROS Topics
+📌 **Tutorial:** [Understanding ROS Topics](https://wiki.ros.org/ROS/Tutorials/UnderstandingTopics)
+
+✅ **Description:** Learn about the publish-subscribe messaging model. Topics allow data streams between nodes.
+
+### 3.3 Writing a Publisher and Subscriber
+📌 **Python:** [Publisher/Subscriber in Python](https://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)  
+📌 **C++:** [Publisher/Subscriber in C++](https://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
+
+✅ **Description:** Hands-on coding to create nodes that send (publish) and receive (subscribe) data over topics.
 
 ---
 
-## 🌐 Multi-Machine ROS Networking
-- Learn how to distribute your ROS system across multiple machines.
+## 🔄 4. ROS Services, Parameters, and Data Management
+Learn synchronous communication and parameterization in ROS.
 
-✅ Network configurations and practical examples.
+### 4.1 Understanding Services and Parameters
+📌 **Tutorial:** [Services and Parameters](https://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams)
+
+✅ **Description:** Services provide request-response communication. Parameters store runtime configurations—powerful tools for system control.
+
+### 4.2 Creating Custom Message and Service Types
+📌 **Tutorial:** [Creating Custom Msg and Srv](https://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv)
+
+✅ **Description:** Design your own data structures and services to better fit your project’s requirements.
+
+---
+
+## 🔧 5. ROS Tools for Debugging and Monitoring
+Utilize ROS tools to manage, launch, and debug your robot system.
+
+### 5.1 Using rqt_console and roslaunch
+📌 **Tutorial:** [rqt_console and roslaunch](https://wiki.ros.org/ROS/Tutorials/UsingRqtconsoleRoslaunch)
+
+✅ **Description:** Learn how to monitor logs with `rqt_console`, and start multiple nodes and parameters with `roslaunch`.
+
+---
+
+## 🎥 6. Data Recording, Playback, and Analysis
+Record and replay data for testing, debugging, and offline analysis.
+
+### 6.1 Recording and Playing Back Data
+📌 **Tutorial:** [rosbag Data Recording and Playback](https://wiki.ros.org/ROS/Tutorials/Recordingandplayingbackdata)
+
+✅ **Description:** Use `rosbag` to record topic data and replay it for repeated testing or analysis without re-running the robot.
+
+---
+
+## 🌍 7. Advanced Concepts: Multi-Machine ROS
+Scale your system by running ROS across multiple machines in a network.
+
+### 7.1 Running ROS Across Multiple Machines
+📌 **Tutorial:** [Multiple Machines Setup](https://wiki.ros.org/ROS/Tutorials/MultipleMachines)
+
+✅ **Description:** Learn network configurations that allow ROS nodes to communicate across different computers—a necessity for distributed robotic systems.
 
 ---
 
