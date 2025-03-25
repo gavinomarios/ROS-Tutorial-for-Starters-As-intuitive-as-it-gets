@@ -72,12 +72,45 @@ Master the core communication models in ROS for inter-node messaging.
 ### 3.1 Understanding ROS Nodes
 📌 **Tutorial:** [Understanding ROS Nodes](https://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
 
-**Description:** Grasp the role of nodes as individual executables that handle tasks and communicate via topics and services.
+**Description:** Understanding **nodes** as individual executables that handle tasks and communicate via topics and services.
+Aka. A single executable that performs one task in the robot's brain.
+
+A ROS Node is kinda like a function, but instead of living inside your program, it’s a whole mini-program that runs next to other mini-programs (nodes) — and they all talk to each other.
+
+| **Function (Python/C++)**          | **ROS Node**                                |
+|------------------------------------|---------------------------------------------|
+| Runs when called                   | Runs **all the time** in the background     |
+| Returns a value                    | Sends/receives messages (like broadcasting) |
+| Lives inside a program             | **IS** the program                         |
+| No idea what other functions are doing | Can talk to other nodes anytime       |
 
 ### 3.2 Understanding ROS Topics
 📌 **Tutorial:** [Understanding ROS Topics](https://wiki.ros.org/ROS/Tutorials/UnderstandingTopics)
 
 **Description:** Learn about the publish-subscribe messaging model. Topics allow data streams between nodes.
+Aka. Publish - Subscribe
+
+Okay, imagine your robot is a bunch of people in a room.
+One person yells “THE TEMPERATURE IS 30°C!” 📢
+
+Whoever cares about the temperature just listens.
+If you don’t care, you ignore it.
+That’s it.
+That’s publish-subscribe.
+
+Publisher = the person yelling
+Subscriber = the people listening
+Topic = the subject they’re yelling about (like “temperature” or “camera pictures”)
+
+Nobody talks directly to anyone. They just yell on their topic and anyone listening picks it up.
+
+Example:
+The camera node yells: “Here’s a picture!”
+The image processor listens and goes: “Cool, let me work on that.”
+The motor? Doesn’t care. Keeps driving.
+
+Super chill. No one needs to know who’s talking or listening.
+Easy to add/remove listeners anytime.
 
 ### 3.3 Writing a Publisher and Subscriber
 📌 **Python:** [Publisher/Subscriber in Python](https://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)  
