@@ -9,14 +9,14 @@ Welcome to the **ROS (Robot Operating System) Tutorial for Starters** — design
 1. [Introduction](#introduction)
 2. [🌐 ROS Environment Setup](#ros-environment-setup)
 3. [🗂 ROS Filesystem & Package Management](#ros-filesystem--package-management)
+
 4. [🧠 Core ROS Concepts: Nodes, Topics, and Communication](#core-ros-concepts-nodes-topics-and-communication)
-5. [🔄 ROS Services, Parameters, and Data Management](#ros-services-parameters-and-data-management)
-6. [🔧 ROS Tools for Debugging and Monitoring](#ros-tools-for-debugging-and-monitoring)
-7. [🎥 Data Recording, Playback, and Analysis](#data-recording-playback-and-analysis)
-8. [🌍 Advanced Concepts: Multi-Machine ROS](#advanced-concepts-multi-machine-ros)
-9. [Visual Roadmap](#visual-roadmap)
-10. [Contributing](#contributing)
-11. [License](#license)
+6. [🔄 ROS Services, Parameters, and Data Management](#ros-services-parameters-and-data-management)
+7. [🔧 ROS Tools for Debugging and Monitoring](#ros-tools-for-debugging-and-monitoring)
+8. [🎥 Data Recording, Playback, and Analysis](#data-recording-playback-and-analysis)
+
+9. [🌍 Advanced Concepts: Multi-Machine ROS](#advanced-concepts-multi-machine-ros)
+10. [Visual Roadmap](#visual-roadmap)
 
 ---
 
@@ -131,11 +131,6 @@ Scale your system by running ROS across multiple machines in a network.
 
 ## 🤝 Contributing
 Pull requests are welcome! If you find something missing or have an intuitive example to add, feel free to contribute.
-
----
-
-## 📜 License
-This project is open-source under the [MIT License](LICENSE).
 
 ---
 
