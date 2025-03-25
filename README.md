@@ -1,4 +1,4 @@
-# ROS Tutorial for Starters: As Intuitive As It Gets 🚀
+# ROS Tutorial for Starters: As Intuitive As It Gets!
 
 Welcome to the **ROS (Robot Operating System) Tutorial for Starters** — designed to guide you step-by-step from installation to advanced multi-machine setups. This repository compiles essential resources, code examples, and visual aids to make your ROS learning journey intuitive and practical.
 
@@ -6,15 +6,20 @@ Welcome to the **ROS (Robot Operating System) Tutorial for Starters** — design
 
 ## 📖 Table of Contents
 
+Set it up
 1. [Introduction](#introduction)
 2. [🌐 ROS Environment Setup](#ros-environment-setup)
 3. [🗂 ROS Filesystem & Package Management](#ros-filesystem--package-management)
 
+What you actually need ⬇️
 4. [🧠 Core ROS Concepts: Nodes, Topics, and Communication](#core-ros-concepts-nodes-topics-and-communication)
+
+Bluh Bluh Bluh if you need them they are here. 
 6. [🔄 ROS Services, Parameters, and Data Management](#ros-services-parameters-and-data-management)
 7. [🔧 ROS Tools for Debugging and Monitoring](#ros-tools-for-debugging-and-monitoring)
 8. [🎥 Data Recording, Playback, and Analysis](#data-recording-playback-and-analysis)
 
+Ok nerd...
 9. [🌍 Advanced Concepts: Multi-Machine ROS](#advanced-concepts-multi-machine-ros)
 10. [Visual Roadmap](#visual-roadmap)
 
