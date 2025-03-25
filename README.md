@@ -88,26 +88,38 @@ A ROS Node is kinda like a function, but instead of living inside your program, 
 📌 **Tutorial:** [Understanding ROS Topics](https://wiki.ros.org/ROS/Tutorials/UnderstandingTopics)
 
 **Description:** Learn about the publish-subscribe messaging model. Topics allow data streams between nodes.
+
 Aka. Publish - Subscribe
 
+
 Okay, imagine your robot is a bunch of people in a room.
+
 One person yells “THE TEMPERATURE IS 30°C!” 📢
 
 Whoever cares about the temperature just listens.
+
 If you don’t care, you ignore it.
+
 That’s it.
+
 That’s publish-subscribe.
 
+
 Publisher = the person yelling
+
 Subscriber = the people listening
+
 Topic = the subject they’re yelling about (like “temperature” or “camera pictures”)
 
+
 Nobody talks directly to anyone. They just yell on their topic and anyone listening picks it up.
+
 
 Example:
 The camera node yells: “Here’s a picture!”
 The image processor listens and goes: “Cool, let me work on that.”
 The motor? Doesn’t care. Keeps driving.
+
 
 Super chill. No one needs to know who’s talking or listening.
 Easy to add/remove listeners anytime.
@@ -117,6 +129,8 @@ Easy to add/remove listeners anytime.
 📌 **C++:** [Publisher/Subscriber in C++](https://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 
 **Description:** Hands-on coding to create nodes that send (publish) and receive (subscribe) data over topics.
+
+Aka. How you actually do it. 
 
 ---
 
