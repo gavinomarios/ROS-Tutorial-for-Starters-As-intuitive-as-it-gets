@@ -24,6 +24,7 @@ Bluh Bluh Bluh if you need them they are here.
 8. [🎥 Data Recording, Playback, and Analysis](#data-recording-playback-and-analysis)
 
 Ok nerd...
+
 9. [🌍 Advanced Concepts: Multi-Machine ROS](#advanced-concepts-multi-machine-ros)
 
 I will make more content soon!
