@@ -38,21 +38,16 @@ Install ROS on your machine whatever it is
 -set up environment variables
 -configure your workspace
 
-So your system is ready to develop and run ROS packages. 
-
-ROS Packages: Self-contained and reusable modules
-
-Including:
-Source code (Python/C++ nodes)
-Configuration files
-Launch files
-Custom messages and services
-Dependencies (other ROS packages)
+So your system is ready to develop and run ROS. 
 
 ---
 
 ## 🗂 2. ROS Filesystem & Package Management
 Understand how ROS organizes files and packages—crucial for project structure and navigation.
+
+ROS Packages: Self-contained and reusable modules
+Including: Source code (Python/C++ nodes), Configuration files,Launch files, Custom messages and services, Dependencies (other ROS packages)
+
 
 ### 2.1 Navigating the ROS Filesystem
 📌 **Tutorial:** [Navigating the ROS Filesystem](https://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem)
