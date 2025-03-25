@@ -33,7 +33,21 @@ Setting up your development environment properly is the foundation for working w
 ### 1.1 Installing and Configuring ROS
 📌 **Tutorial:** [Installing and Configuring Your ROS Environment](https://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
 
-**Description:** Learn how to install ROS on your machine, set up environment variables, and configure your workspace. This ensures your system is ready to develop and run ROS packages.
+**Description:** 
+Install ROS on your machine whatever it is
+-set up environment variables
+-configure your workspace
+
+So your system is ready to develop and run ROS packages. 
+
+ROS Packages: Self-contained and reusable modules
+
+Including:
+-Source code (Python/C++ nodes)
+-Configuration files
+-Launch files
+-Custom messages and services
+-Dependencies (other ROS packages)
 
 ---
 
