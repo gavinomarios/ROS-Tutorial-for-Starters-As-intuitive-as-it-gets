@@ -33,7 +33,7 @@ Setting up your development environment properly is the foundation for working w
 ### 1.1 Installing and Configuring ROS
 📌 **Tutorial:** [Installing and Configuring Your ROS Environment](https://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
 
-✅ **Description:** Learn how to install ROS on your machine, set up environment variables, and configure your workspace. This ensures your system is ready to develop and run ROS packages.
+**Description:** Learn how to install ROS on your machine, set up environment variables, and configure your workspace. This ensures your system is ready to develop and run ROS packages.
 
 ---
 
@@ -43,17 +43,17 @@ Understand how ROS organizes files and packages—crucial for project structure 
 ### 2.1 Navigating the ROS Filesystem
 📌 **Tutorial:** [Navigating the ROS Filesystem](https://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem)
 
-✅ **Description:** Explore ROS's file and package structure. Learn commands like `roscd`, `rosls`, and `rospack` to navigate efficiently.
+**Description:** Explore ROS's file and package structure. Learn commands like `roscd`, `rosls`, and `rospack` to navigate efficiently.
 
 ### 2.2 Creating a ROS Package
 📌 **Tutorial:** [Creating a ROS Package](https://wiki.ros.org/ROS/Tutorials/CreatingPackage)
 
-✅ **Description:** Understand the anatomy of a ROS package. Create your own package with dependencies, setting the stage for scalable projects.
+**Description:** Understand the anatomy of a ROS package. Create your own package with dependencies, setting the stage for scalable projects.
 
 ### 2.3 Building a ROS Package
 📌 **Tutorial:** [Building a ROS Package](https://wiki.ros.org/ROS/Tutorials/BuildingPackages)
 
-✅ **Description:** Learn the build system (CMake/Catkin), compile your package, and resolve dependencies for smooth development.
+**Description:** Learn the build system (CMake/Catkin), compile your package, and resolve dependencies for smooth development.
 
 ---
 
@@ -63,18 +63,18 @@ Master the core communication models in ROS for inter-node messaging.
 ### 3.1 Understanding ROS Nodes
 📌 **Tutorial:** [Understanding ROS Nodes](https://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
 
-✅ **Description:** Grasp the role of nodes as individual executables that handle tasks and communicate via topics and services.
+**Description:** Grasp the role of nodes as individual executables that handle tasks and communicate via topics and services.
 
 ### 3.2 Understanding ROS Topics
 📌 **Tutorial:** [Understanding ROS Topics](https://wiki.ros.org/ROS/Tutorials/UnderstandingTopics)
 
-✅ **Description:** Learn about the publish-subscribe messaging model. Topics allow data streams between nodes.
+**Description:** Learn about the publish-subscribe messaging model. Topics allow data streams between nodes.
 
 ### 3.3 Writing a Publisher and Subscriber
 📌 **Python:** [Publisher/Subscriber in Python](https://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)  
 📌 **C++:** [Publisher/Subscriber in C++](https://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 
-✅ **Description:** Hands-on coding to create nodes that send (publish) and receive (subscribe) data over topics.
+**Description:** Hands-on coding to create nodes that send (publish) and receive (subscribe) data over topics.
 
 ---
 
@@ -84,12 +84,12 @@ Learn synchronous communication and parameterization in ROS.
 ### 4.1 Understanding Services and Parameters
 📌 **Tutorial:** [Services and Parameters](https://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams)
 
-✅ **Description:** Services provide request-response communication. Parameters store runtime configurations—powerful tools for system control.
+**Description:** Services provide request-response communication. Parameters store runtime configurations—powerful tools for system control.
 
 ### 4.2 Creating Custom Message and Service Types
 📌 **Tutorial:** [Creating Custom Msg and Srv](https://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv)
 
-✅ **Description:** Design your own data structures and services to better fit your project’s requirements.
+**Description:** Design your own data structures and services to better fit your project’s requirements.
 
 ---
 
@@ -99,7 +99,7 @@ Utilize ROS tools to manage, launch, and debug your robot system.
 ### 5.1 Using rqt_console and roslaunch
 📌 **Tutorial:** [rqt_console and roslaunch](https://wiki.ros.org/ROS/Tutorials/UsingRqtconsoleRoslaunch)
 
-✅ **Description:** Learn how to monitor logs with `rqt_console`, and start multiple nodes and parameters with `roslaunch`.
+**Description:** Learn how to monitor logs with `rqt_console`, and start multiple nodes and parameters with `roslaunch`.
 
 ---
 
@@ -109,7 +109,7 @@ Record and replay data for testing, debugging, and offline analysis.
 ### 6.1 Recording and Playing Back Data
 📌 **Tutorial:** [rosbag Data Recording and Playback](https://wiki.ros.org/ROS/Tutorials/Recordingandplayingbackdata)
 
-✅ **Description:** Use `rosbag` to record topic data and replay it for repeated testing or analysis without re-running the robot.
+**Description:** Use `rosbag` to record topic data and replay it for repeated testing or analysis without re-running the robot.
 
 ---
 
@@ -119,7 +119,7 @@ Scale your system by running ROS across multiple machines in a network.
 ### 7.1 Running ROS Across Multiple Machines
 📌 **Tutorial:** [Multiple Machines Setup](https://wiki.ros.org/ROS/Tutorials/MultipleMachines)
 
-✅ **Description:** Learn network configurations that allow ROS nodes to communicate across different computers—a necessity for distributed robotic systems.
+**Description:** Learn network configurations that allow ROS nodes to communicate across different computers—a necessity for distributed robotic systems.
 
 ---
 
@@ -129,12 +129,12 @@ Scale your system by running ROS across multiple machines in a network.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 Pull requests are welcome! If you find something missing or have an intuitive example to add, feel free to contribute.
 
 ---
 
-## ⭐ Star this repo if you find it helpful!
+## Star this repo if you find it helpful!
 Let's make robotics learning simple and accessible for everyone.
 
 ---
