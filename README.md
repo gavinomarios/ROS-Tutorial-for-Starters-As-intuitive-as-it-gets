@@ -43,11 +43,11 @@ So your system is ready to develop and run ROS packages.
 ROS Packages: Self-contained and reusable modules
 
 Including:
--Source code (Python/C++ nodes)
--Configuration files
--Launch files
--Custom messages and services
--Dependencies (other ROS packages)
+Source code (Python/C++ nodes)
+Configuration files
+Launch files
+Custom messages and services
+Dependencies (other ROS packages)
 
 ---
 
