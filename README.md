@@ -25,7 +25,8 @@ Bluh Bluh Bluh if you need them they are here.
 
 Ok nerd...
 9. [🌍 Advanced Concepts: Multi-Machine ROS](#advanced-concepts-multi-machine-ros)
-10. [Visual Roadmap](#visual-roadmap)
+
+I will make more content soon!
 
 ---
 
@@ -185,12 +186,6 @@ Scale your system by running ROS across multiple machines in a network.
 📌 **Tutorial:** [Multiple Machines Setup](https://wiki.ros.org/ROS/Tutorials/MultipleMachines)
 
 **Description:** Learn network configurations that allow ROS nodes to communicate across different computers—a necessity for distributed robotic systems.
-
----
-
-## 🗺 Visual Roadmap
-![ROS Learning Roadmap](flowchart.png)  
-*The visual roadmap for this tutorial is available inside the repository.*
 
 ---
 
